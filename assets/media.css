@@ -1,0 +1,267 @@
+@media only screen and (max-width: 600px) {
+
+  .menu{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    justify-content: space-around;
+    gap: 7rem;
+    
+    
+  }
+
+  #logo{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+
+  #btn-mobile{
+    display: block;
+    font-size: 1.5rem;
+  }
+
+
+  
+
+
+
+  .list-menu{
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    width: 70%;
+    top: 70px;
+    right: 0;
+    background-color:black;
+    height: 0;
+    z-index: 1000;
+    transition: .5s;
+    overflow-y: hidden ;
+    border-radius: 5px;
+  }
+
+
+  #nav.active #list-menu{
+    display: block;
+    height: 20rem;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+
+  .list-menu a {
+    font-size: large;
+    color: white;
+    padding: 1rem 0;
+    margin: 0px 1rem;
+    border-bottom: 2px solid #8059C6;
+  }
+
+
+  
+
+
+
+
+/* MAIN */
+
+  main{
+    
+    width: 100%;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+
+  .conteudo-main{
+    margin-top: 1.5rem;
+    margin-left: 0;
+  }
+
+   .img-main{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+
+/* mobile menu */
+
+
+.nav .active .menu{
+    height: calc(100vh - 4.6875rem);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+.nav.active .hamburger {
+    border-top-color: transparent;
+}
+
+.nav active .hamburger::beefore{
+    transform: rotate(135deg);
+}
+
+.nav .active .hamburger::after{
+    transform: rotate(-135deg);
+    top: -0.4375rem;
+}
+
+
+
+
+
+/* SOBRE */
+
+.sobre{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 55rem;
+    gap: 1.1rem;
+}
+
+.sobre h1{
+    font-size: 2.5rem;
+    position:static;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-sobre{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 20rem;
+}
+
+.btn-download-curriculo{
+    display: none;
+}
+
+.sobre-desc{
+    text-align: center;
+    width: 100%;
+    font-size: 1.1rem;
+
+}
+
+
+.btn-download-curriculo-mobile{
+    text-decoration: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+    width: 18rem;
+    height: 3rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+
+
+.habilidades{
+    height: 42rem;
+}
+
+.habilidades h1{
+    font-size: 2rem;
+    position: static;
+}
+
+
+
+/* Projetos */
+
+  
+.section-projetos{
+    height: 100rem;
+    width: 100%;
+    
+}
+
+.section-projetos h1{
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ 
+
+ .projeto{
+    
+    width: 22rem;
+ }
+    
+
+
+
+
+.container-projetos{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: 55rem;
+   
+}
+
+
+
+
+
+
+
+
+
+/* contatos */
+
+
+.contatos{
+    
+    width: 100%;
+    height: 50rem;
+}
+
+
+.div-img-contatos{
+    width: 100%;
+}
+
+.img-contatos{
+    width: 100%;
+}
+
+
+.container-contatos{
+    margin-top: 5rem;
+    padding-left: 0;
+    gap: 2rem;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedin-contato,.email-contato ,.whatsapp-contato{
+    font-size: 2rem;
+}
+
+
+
+}
