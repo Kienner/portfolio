@@ -1,7 +1,7 @@
 # Meu portfolio
 ## Desenvolvi meu própio portfolio
 
-<a href="https://kennersouza.netlify.app" target"_blank"><h2>Link: https://kennersouza.netlify.app</h2></a>
+<h2>https://kennersouza.netlify.app</h2>
 
 <h3>Tecnologias usadas:</h3>
 
